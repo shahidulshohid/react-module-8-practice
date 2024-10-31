@@ -16,4 +16,4 @@ const useInputState = (defaultValue = null) => {
         onChange
     }
 }
-export default useInputState
+export default useInputState 

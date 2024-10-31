@@ -11,7 +11,7 @@ const emailState = useInputState('Rojoni@sojoni.go') //how to got value and onCh
         <div>
             <form onSubmit={handleSubmit}>
                 {/* <input value={name} onChange={handleNameChange} type="text"/> */}
-                <br />
+                <br />   
                 <input {...emailState} type="email" />
                 <br />
                 <input type="password"/>
@@ -23,3 +23,4 @@ const emailState = useInputState('Rojoni@sojoni.go') //how to got value and onCh
 };
 
 export default HookForm;
+
